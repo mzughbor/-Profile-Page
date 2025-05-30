@@ -8,6 +8,10 @@
     font-variation-settings: "wdth" 100;
 }
 
+body {
+    background-color: beige;
+}
+
 header {
     background-color: #292929;
     display: flex;
@@ -21,11 +25,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+}
+
+nav {
+    gap: 65px;
 }
 
 ul {
     list-style: none;
+    gap: 30px;
 }
 
 nav a {
@@ -41,10 +49,6 @@ header h1 {
 
 h1 {
     font-size: 36px;
-}
-
-.back-ground {
-    background-color: beige;
 }
 
 main {
@@ -65,15 +69,12 @@ main {
     border-radius: 2px 2px 0 0;
 }
 
-.profile-container {
-    position: relative;
-}
-
 article {
     border: 1px solid #696969;
     border-radius: 3px;
     background-color: #ffffff;
     margin-bottom: 20px;
+    position: relative;
 }
 
 section:nth-of-type(1) {
@@ -139,17 +140,12 @@ header button {
     gap: 20px;
 }
 
-.one-line {
-    display: inline;
-}
-
 .location,
 .profile-edit,
 .person,
 .person-connections {
     display: flex;
     gap: 10px;
-    /*margin: 20px 0;*/
     font-size: 22px;
 }
 
