@@ -90,7 +90,7 @@ aside:nth-of-type(1) {
     height: 128px;
     border-radius: 50%;
     position: absolute;
-    top: 35px;
+    top: 30px;
     left: 30px;
     border: 5px solid #ffffff;
 }
@@ -134,10 +134,9 @@ header button {
 }
 
 .social {
-    display: flex;
-    flex-direction: column;
-    padding: 65px 30px 25px;
-    gap: 20px;
+    position: relative;
+    top: 24px;
+    padding: 30px;
 }
 
 .location,
@@ -147,6 +146,7 @@ header button {
     display: flex;
     gap: 10px;
     font-size: 22px;
+    margin: 15px 0;
 }
 
 .person,
@@ -190,7 +190,6 @@ h3 {
     font-size: 26px;
     box-sizing: border-box;
     border-radius: 2px 2px 0 0;
-    letter-spacing: -0.8px;
     align-content: space-evenly;
     font-weight: 500;
 }
